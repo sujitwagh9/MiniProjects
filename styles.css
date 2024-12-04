@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #2f1212, #650303);
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.btn {
+    background: #f62f2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #f50a0a;
+}
+
+
+.response-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.office-info {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.office-info h4 {
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-size: 16px;
+}
+
+.office-info p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.office-info strong {
+    color: #0056b3;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+}
